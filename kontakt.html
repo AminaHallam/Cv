@@ -8,74 +8,75 @@
     <link rel="preconnect" href="https://fonts.googleapis.com"> 
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap" rel="stylesheet">
-    <link rel="shortcut icon" href="logocv.png">
+    <link rel="shortcut icon" href="./icon/logocv.png">
     <link rel="stylesheet" href="style.css">
     <a href="index.html"></a>
+    <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@300&family=Cinzel&family=Lora:ital@1&family=Roboto:wght@700&family=Shalimar&display=swap" rel="stylesheet">    
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     
 </head>
 <body>
     <header>
-        <div id="name"><img src="namn.png" alt="Amina Hallam"></div>
+        <div><a href="./index.html"><img id="name" src="./icon/namn.png" alt="Amina Hallam"></a></div>
         <div class="divcontainer">
-        <div class="menu"><a href="./index.html" class="menu">VÄLKOMMEN</a></div>  
-        <div class="menu"><a href="./index.html" class="menu">PERSONLIGT</a></div>     
-        <div class="menu"><a href="./index.html" class="menu">KARRIÄR</a></div>
-        <div class="menu"><a href="./index.html" class="menu">KUNSKAP</a></div>
-        <div class="menu"><a href="kontakt.html" class="menu">KONTAKT</a></div>
+            <div class="menu"><a href="./index.html" class="menu">Welcome</a></div>  
+            <div class="menu"><a href="./personligt.html" class="menu">About</a></div>     
+            <div class="menu"><a href="./Portfolj.html" class="menu">career</a></div>
+            <div class="menu"><a href="./kontakt.html" class="menu">Contact</a></div>
         </div>
     </header>
 
     <section>
-        <div>
-        <h5 class="valkommen">Kontakt</h5>    
-        <p class="presentation">
-           Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
-           Ipsa quibusdam qui voluptatem quam asperiores obcaecati quas quia facilis dolorum numquam. 
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, quaerat. Lorem, 
-            ipsum dolor sit amet consectetur adipisicing elit. Recusandae consequuntur eos nemo, 
-            aliquid omnis natus excepturi deserunt ullam. Optio sit quidem, 
-            animi a possimus autem qui vitae incidunt quaerat voluptatibus? 
-            Dolore iusto repellat quaerat asperiores accusantium soluta nesciunt rem delectus.
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem dolorem quasi, 
-            amet eveniet nesciunt culpa voluptatibus nemo deleniti est vel aliquam hic quidem 
-            molestias cum quisquam debitis officia saepe officiis dolor nisi similique! Ratione vel cupiditate ipsa aut beatae? Quos.
-        </p>
-        <br>
-        <p class="presentation">Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-            Tempore vitae tenetur eum nostrum quam id magni officia corrupti placeat porro.
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, 
-            harum quas provident, voluptate eos quos adipisci aspernatur, 
-            ratione enim laudantium officiis vero praesentium tempora. Voluptate, incidunt laborum obcaecati, 
-            non impedit eligendi ratione recusandae alias ipsum consequatur tenetur nemo explicabo similique!
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            Repudiandae id nobis voluptatum a voluptas dicta qui numquam, 
-            fugiat ipsum! Fuga ipsum, excepturi molestias blanditiis culpa quaerat magni sapiente ratione voluptatem?
-            </p>
-        <br>
+        <h5 class="contactHeader">Get In Touch!</h5>    
+        <div class="contactDiv">
+            <div class="contactIcons">
+                <div class="adressBox">
+                    <img src="./icon/adress.png" alt="Adress">
+                    <h1 class="adressContainer">Adress</h1>
+                    <p>Lorem ipsum dolor, <br>sit amet consectetur <br>adipisicing elit.</p>
+
+                </div>
+
+                <div>
+                    
+                    <img src="./icon/telephone-call.png" alt="Phone">
+                    <h1 class="phoneContainer">Phone</h1>
+                    <p>(+46) *** *** ***</p>
+
+                </div>
+
+                <div class="emailBox">
+                    <img id="emailicon" src="./icon/email.png" alt="Email">
+                    <h1 class="emailContainer">E-mail</h1>
+                    <p><a href="amina.hallam@gmail.com" style="text-decoration: none; color: black;">amina.hallam@gmail.com</a></p>
+
+                </div>
+
+            </div>
         </div>
 
-        <h3 class="valkommen">K. formulär</h3>
+        <h3 class="valkommen">Message Me!</h3>
         <div class="formular">
             <form action="kontakt.html">
-                <label for="fname">Förnamn <sup>*</sup></label>
-                <input type="text" id="fname" name="Firstname" placeholder="Ditt förnamn..">
+                <label for="fname">Firstname <sup>*</sup></label>
+                <input type="text" id="fname" name="Firstname" placeholder="Your firstname..">
                 
-                <label for="lname">Efternamn <sup>*</sup></label>
-                <input type="text" id="lname" name="lastname" placeholder="Ditt efternamn..">
+                <label for="lname">Lastname <sup>*</sup></label>
+                <input type="text" id="lname" name="lastname" placeholder="Your lastname..">
                 
-            <label for="country">Land</label>
+            <label for="country">Country</label>
             <select id="country" name="country">
-                <option value="Sverige">Sverige</option>
-                <option value="Norge">Norge</option>
-                <option value="Danmark">Danmark</option>
+                <option value="Sverige">Sweden</option>
+                <option value="Norge">Norway</option>
+                <option value="Danmark">Denmark</option>
             </select>
 
-                <label for="subject">Ämne</label>
-                <textarea id="subject" name="subject" placeholder="Skriv något.." style="height:200px"></textarea>
+                <label for="subject">Text</label>
+                <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
 
-                <input type="submit" value="Skicka in">
+                <input type="submit" value="Send">
             </form>
         </div>
     
@@ -83,14 +84,12 @@
 
     <section>
         <footer>
-            <div class="footer">
-                <p>KONTAKT VIA</p>
-            </div>
-            <div class="icon">
-                <a href="#" class="fa fa-facebook"></a> 
-                <a href="#" class="fa fa-twitter"></a>
-                <a href="#" class="fa fa-linkedin"></a>
-                <a href="#" class="fa fa-instagram"></a>
+            
+            <div class="icon"> 
+                <a href="https://twitter.com/amina_hallam" target="_blank" class="fa fa-twitter"></a>
+                <a href="https://www.linkedin.com/in/amina-hallam-173391160/" target="_blank" class="fa fa-linkedin"></a>
+                <a href="https://github.com/AminaHallam?tab=repositories" target="_blank" class="fa fa-github"></a>
+                
             </div>
     
         </footer>
