@@ -141,6 +141,7 @@ header {
     border-radius: 100px;
     flex-wrap: nowrap;
     box-shadow: 10px 10px 20px #afa9a9;
+    
 }
 
 
@@ -351,7 +352,7 @@ input[type=text], select, textarea {
     justify-content: center;
     object-fit: cover;
     height: 300px;
-    box-shadow: 10px 10px 5px #aaaaaa;
+    box-shadow: 0px 10px 5px #aaaaaa;
     border-radius: 5px;
   }
 
@@ -394,7 +395,8 @@ input[type=text], select, textarea {
   #imgBox {
     object-fit: cover;
     height: 500px;
-    box-shadow: 10px 10px 20px #aaaaaa;
+    /* box-shadow: 10px 10px 20px #aaaaaa; */
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
     
     border-radius: 20px;
     transition: all 0.2s ease-in;
@@ -423,7 +425,9 @@ left: 50%;
 transform: translate(-50%, -50%);
 font-size: 18px;
 font-weight: bolder;
-color: #a69494;
+color: #171515;
+background-color: #dbdbdbcc;
+border-radius: 20px;
 
 padding: 7px 12px;
 opacity: 0.80;
